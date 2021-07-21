@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +8,7 @@
     <meta name="description" content="Guatemala en Datos">
     <meta name="author" content="jfmancilla">
     <link rel="icon" href="/media/favico2.png">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Guatemala en Datos</title>
 
@@ -20,35 +23,34 @@
     <meta name="google" content="notranslate" />
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
-<body>
+<body style="width: 100%;">
         <!-- Navigation -->
-        <div class="container">
-          <header class="blog-header py-3">
+        <div class="container" style="width: 100%;">
+          <header class="blog-header py-3" style="background-color: #5f5f5f; height: 150px;">
             <div class="row flex-nowrap justify-content-between align-items-center">
               <div class="col-4 pt-1">
-                <a class="text-muted" href="#">Subscribirse</a>
+                <img style="width: 290px; height: 110px; " src="https://res.cloudinary.com/webuvg/image/upload/v1537801596/WEB/Investigacion/Centros%20de%20investigaci%C3%B3n/Centro%20de%20Estudios%20en%20Inform%C3%A1tica%20Aplicada%20CEIA/ceia-logo_2x.png" alt="ceia">
               </div>
-              <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="#">Guatemala en Datos</a>
+              <div class="col-4 text-center " >
+                <a class="blog-header-logo" style="color: azure;" href="#">Guatemala en Datos</a>
               </div>
               <div class="col-4 d-flex justify-content-end align-items-center">
-                <a class="text-muted" href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+                <a class="text-muted" style="color: azure;" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="azure" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
                 </a>
-                <a class="btn btn-sm btn-outline-secondary" href="#">Ingresar</a>
               </div>
             </div>
           </header>
           <!-- Secciones -->
-          <div class="nav-scroller py-1 mb-2">
-            <nav class="nav d-flex justify-content-between">
-              <a class="p-2 text-muted" href="#">Economía</a>
-              <a class="p-2 text-muted" href="#">Medio Ambiente</a>
-              <a class="p-2 text-muted" href="#">Tecnología</a>
-              <a class="p-2 text-muted" href="#">Salud</a>
-              <a class="p-2 text-muted" href="#">Educación</a>
-              <a class="p-2 text-muted" href="#">Ciencia</a>
-              <a class="p-2 text-muted" href="#">Politica</a>
+          <div class="nav-scroller py-1 mb-2" style="background-color: #078B45; color: azure;" >
+            <nav class="nav d-flex justify-content-between" style="color: azure;">
+              <a class="p-2 text-white" style="color: #078B45;" href="#">Economía</a>
+              <a class="p-2 text-white" style="color: azure;" href="#">Medio Ambiente</a>
+              <a class="p-2 text-white" style="color: azure;" href="#">Tecnología</a>
+              <a class="p-2 text-white" style="color: azure;" href="#">Salud</a>
+              <a class="p-2 text-white" style="color: azure;" href="#">Educación</a>
+              <a class="p-2 text-white" style="color: azure;" href="#">Ciencia</a>
+              <a class="p-2 text-white" style="color: azure;" href="#">Política</a>
             </nav>
           </div>
           {% block content %}
